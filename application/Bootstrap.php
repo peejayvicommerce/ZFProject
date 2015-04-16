@@ -8,9 +8,9 @@ class Bootstrap extends Zend_Application_Bootstrap_Bootstrap
 	    $route = new Zend_Controller_Router_Route(':action', array(
 	        'module'     => 'default',
 	        'controller' => 'index',
-	        'action'     => 'hello'
+	        'action'     => 'index'
 	    ));
 	   
-	    $router->addRoute('hello', $route);
+	    $router->addRoute('index', $route);
 	}
 }

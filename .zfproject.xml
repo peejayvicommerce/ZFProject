@@ -21,6 +21,8 @@
         <viewScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Index">
             <viewScriptFile forActionName="index"/>
+            <viewScriptFile forActionName="hello"/>
+            <viewScriptFile forActionName="hi"/>
           </viewControllerScriptsDirectory>
           <viewControllerScriptsDirectory forControllerName="Error">
             <viewScriptFile forActionName="error"/>
