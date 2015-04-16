@@ -11,22 +11,12 @@ class IndexController extends Zend_Controller_Action
     public function indexAction()
     {
         // action body
+        echo "this is index";
     }
     public function helloAction()
     {
-        echo "Hello";
-
+        //just to call hello.phtml at views
     }
-    public function heheAction(){
-    	echo "hehe";
-    }
-    public function hiAction()
-    {
-        $this->render('hello');
-
-    }
-
-
 
 }
 
